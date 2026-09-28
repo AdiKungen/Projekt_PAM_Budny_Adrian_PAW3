@@ -1,1 +1,1 @@
-# Projekt_PAM_Budny_Adrian_PAW3
+# Asystent Tempa Biegu - Narzędzie do kontroli i stabilizacji prędkości z wykorzystaniem GPS
