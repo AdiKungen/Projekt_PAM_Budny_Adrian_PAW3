@@ -245,7 +245,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
                     if (currentTime - lastAlertTime > 2000L) {
                         ToneGenerator(AudioManager.STREAM_ALARM, 100)
                             .startTone(ToneGenerator.TONE_CDMA_ALERT_CALL_GUARD, 200)
-                        showExclusiveToast("Za wolno! Przyspiesz!")
+                        showExclusiveToast(getString(R.string.alert_speed_too_slow))
                         lastAlertTime = currentTime
                     }
                 }
@@ -266,7 +266,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
                             @Suppress("DEPRECATION")
                             getSystemService<Vibrator>()?.vibrate(200)
                         }
-                        showExclusiveToast("Za szybko! Zwolnij!")
+                        showExclusiveToast(getString(R.string.alert_speed_too_fast))
                         lastAlertTime = currentTime
                     }
                 }

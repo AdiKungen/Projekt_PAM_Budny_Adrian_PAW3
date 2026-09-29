@@ -14,4 +14,6 @@
     <string name="error_speed_empty">BŁĄD: Jedna, albo więcej prędkości jest pusta</string>
     <string name="default_speed">0,00 km/h</string>
     <string name="error_permission">BŁĄD: Aplikacja wymaga uprawnień dokładnej lokalizacji, aby działać poprawnie</string>
+    <string name="alert_speed_too_slow">Za wolno! Przyspiesz!</string>
+    <string name="alert_speed_too_fast">Za szybko! Zwolnij!</string>
 </resources>

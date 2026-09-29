@@ -13,4 +13,6 @@
     <string name="error_speed_empty">ERROR: One or more speeds are empty</string>
     <string name="default_speed">0.00 km/h</string>
     <string name="error_permission">ERROR: This app requires precise location permission to work properly</string>
+    <string name="alert_speed_too_slow">Too slow! Speed up!</string>
+    <string name="alert_speed_too_fast">Too fast! Slow down!</string>
 </resources>
