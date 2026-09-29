@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BudnyPredkosciomierz</string>
+    <string name="start_speed">0.00 km/h</string>
+    <string name="pause_button">PAUSE</string>
+    <string name="min_speed_text">MIN Speed</string>
+    <string name="max_speed_text">MAX Speed</string>
+    <string name="start_button">START</string>
+    <string name="edit_button">EDIT</string>
+    <string name="done_button">DONE</string>
+    <string name="max_speed_hint">MAX Speed (km/h)</string>
+    <string name="min_speed_hint">MIN Speed (km/h)</string>
+    <string name="error_min_greater">ERROR: MIN speed is greater than MAX speed</string>
+    <string name="error_speed_empty">ERROR: One or more speeds are empty</string>
+    <string name="default_speed">0.00 km/h</string>
+    <string name="error_permission">ERROR: This app requires precise location permission to work properly</string>
+</resources>
