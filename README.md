@@ -4,6 +4,10 @@ Prosta i intuicyjna aplikacja mobilna na system Android, stworzona w języku Kot
 
 ---
 
+## Demo / Prezentacja działania
+
+---
+
 ## O projekcie
 
 Utrzymanie stałego tempa to kluczowy element treningu biegowego zarówno dla amatorów dbających o odpowiednie tętno tlenowe, jak i dla profesjonalistów przygotowujących się do maratonów i zawodów długodystansowych. 
