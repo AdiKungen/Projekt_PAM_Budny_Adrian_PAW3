@@ -4,6 +4,21 @@ Prosta i intuicyjna aplikacja mobilna na system Android, stworzona w języku Kot
 
 ---
 
+## Demo / Prezentacja działania
+
+Poniższa animacja przedstawia pełny cykl pracy w aplikacji (od konfiguracji sesji treningowej po aktywny monitoring): od uruchomienia aplikacji i wprowadzenia parametrów brzegowych (dolnej oraz górnej granicy prędkości w km/h), przez inicjalizację nasłuchiwania modułu GPS, aż po bieżącą kalkulację tempa w czasie rzeczywistym. W trakcie prezentacji zademonstrowano reakcję systemu na poszczególne stany telemetryczne: przekroczenie dolnego progu prędkości (ostrzeżenie o konieczności przyspieszenia), przekroczenie pułapu maksymalnego (alert o zbyt szybkim biegu) oraz stabilny bieg w zdefiniowanym korytarzu prędkości, w którym powiadomienia są automatycznie wyciszane.
+
+<p align="center">
+  <img src="docs/gifs/demo.gif" alt="Prezentacja działania Asystenta Tempa Biegu" width="650">
+</p>
+
+> [!NOTE]
+> **Informacja dotycząca prezentacji na GIF-ie (Wersja demonstracyjna):**
+> 1. **Powiadomienia wizualne (Toast):** W celach demonstracyjnych na nagraniu dodano widoczne komunikaty tekstowe. Wynika to z faktu, że plik GIF nie rejestruje dźwięku, a wibracje są wyczuwalne wyłącznie na fizycznym telefonie (emulator ich nie generuje).
+> 2. **Symulacja GPS w emulatorze Android Studio:** Trasa i prędkość widoczne na nagraniu są generowane przez wbudowane narzędzie emulacji lokalizacji w Android Studio (*Extended Controls -> Location*). Wartości prędkości utrzymują się sztucznie na stałym poziomie przez dłuższe odcinki czasu, co wynika bezpośrednio ze stałych mnożników odtwarzania trasy (*Playback Speed*) w emulatorze. Dodatkowo wirtualny moduł GPS charakteryzuje się zauważalną bezwładnością - przy dynamicznej zmianie prędkości odtwarzania odczyty pozycji aktualizują się z lekkim opóźnieniem. Wynika to wyłącznie ze specyfiki silnika symulacji środowiska Android Studio, a nie z wydajności czy logiki samej aplikacji.
+
+---
+
 ## O projekcie
 
 Utrzymanie stałego tempa to kluczowy element treningu biegowego zarówno dla amatorów dbających o odpowiednie tętno tlenowe, jak i dla profesjonalistów przygotowujących się do maratonów i zawodów długodystansowych. 
@@ -33,6 +48,44 @@ Dzięki temu biegacz nie musi stale patrzeć na ekran telefonu, skupiając się 
 ---
 
 ## Zrzuty ekranu
+
+<p align="center">
+  <img src="docs/screenshots/home_en.png" alt="Ekran główny (angielski)">
+  <br>
+  <em>Rysunek 1: Widok główny aplikacji w domyślnej wersji językowej (język angielski).</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/home_pl.png" alt="Ekran główny (polski)">
+  <br>
+  <em>Rysunek 2: Widok główny po automatycznym dostosowaniu do języka systemowego (internacjonalizacja - język polski).</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/alert_too_slow.png" alt="Ostrzeżenie o zbyt małej prędkości">
+  <br>
+  <em>Rysunek 3: Aktywny monitoring prędkości - sygnalizacja przekroczenia dolnego limitu (tempo poniżej progu minimalnego).</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/alert_too_fast.png" alt="Ostrzeżenie o zbyt dużej prędkości">
+  <br>
+  <em>Rysunek 4: Aktywny monitoring prędkości - sygnalizacja przekroczenia górnego limitu (tempo powyżej pułapu maksymalnego).</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/speed_optimal.png" alt="Bieg w optymalnym tempie">
+  <br>
+  <em>Rysunek 5: Bieg w zdefiniowanym korytarzu prędkości - brak powiadomień i praca w optymalnym tempie treningowym.</em>
+</p>
 
 ---
 
