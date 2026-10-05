@@ -21,6 +21,8 @@ Poniższa animacja przedstawia pełny cykl pracy w aplikacji (od konfiguracji se
 
 ## O projekcie
 
+Projekt został wykonany w ramach zajęć „Projektowanie aplikacji mobilnych” na semestrze letnim 2023/2024, studiów pierwszego stopnia.
+
 Utrzymanie stałego tempa to kluczowy element treningu biegowego zarówno dla amatorów dbających o odpowiednie tętno tlenowe, jak i dla profesjonalistów przygotowujących się do maratonów i zawodów długodystansowych. 
 
 **Asystent Tempa Biegu** pozwala biegaczowi zdefiniować optymalny przedział prędkości (od dolnej do górnej granicy w km/h). Podczas biegu aplikacja stale monitoruje prędkość za pomocą GPS i natychmiast ostrzega użytkownika:
