@@ -97,10 +97,10 @@ Dzięki temu biegacz nie musi stale patrzeć na ekran telefonu, skupiając się 
 * **Platforma docelowa:** Android (minSdkVersion: API 19 / KitKat, targetSdkVersion: API 34 / Android 14)
 * **Wzorzec architektoniczny / UI:** Single Activity (`MainActivity`), Android Data Binding
 * **Komponenty systemowe i biblioteki:**
-  * `Android Location (LocationManager, LocationListener)` - śledzenie lokalizacji i wyliczanie prędkości
-  * `Android Media (ToneGenerator, AudioManager)` - obsługa sygnałów dźwiękowych
-  * `Android OS (Vibrator, VibrationEffect)` - obsługa haptyki / wibracji
-  * `AndroidX MultiDex` - obsługa aplikacji z dużą liczbą referencji metod
+  * `Android Location (LocationManager, LocationListener)` - śledzenie lokalizacji i wyliczanie prędkości,
+  * `Android Media (ToneGenerator, AudioManager)` - obsługa sygnałów dźwiękowych,
+  * `Android OS (Vibrator, VibrationEffect)` - obsługa haptyki / wibracji,
+  * `AndroidX MultiDex` - obsługa aplikacji z dużą liczbą referencji metod.
 * **System budowania:** Gradle (Kotlin DSL: `build.gradle.kts`) z katalogiem wersji `libs.versions.toml`
 
 ---
