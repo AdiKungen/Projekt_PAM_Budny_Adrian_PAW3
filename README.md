@@ -15,7 +15,7 @@ Poniższa animacja przedstawia pełny cykl pracy w aplikacji (od konfiguracji se
 > [!NOTE]
 > **Informacja dotycząca prezentacji na GIF-ie (Wersja demonstracyjna):**
 > 1. **Powiadomienia wizualne (Toast):** W celach demonstracyjnych na nagraniu dodano widoczne komunikaty tekstowe. Wynika to z faktu, że plik GIF nie rejestruje dźwięku, a wibracje są wyczuwalne wyłącznie na fizycznym telefonie (emulator ich nie generuje).
-> 2. **Symulacja GPS w emulatorze Android Studio:** Trasa i prędkość widoczne na nagraniu są generowane przez wbudowane narzędzie emulacji lokalizacji w Android Studio (*Extended Controls -> Location*). Wartości prędkości utrzymują się sztucznie na stałym poziomie przez dłuższe odcinki czasu, co wynika bezpośrednio ze stałych mnożników odtwarzania trasy (*Playback Speed*) w emulatorze. Dodatkowo wirtualny moduł GPS charakteryzuje się zauważalną bezwładnością przy dynamicznej zmianie prędkości odtwarzania odczyty pozycji aktualizują się z lekkim opóźnieniem. Wynika to wyłącznie ze specyfiki silnika symulacji środowiska Android Studio, a nie z wydajności czy logiki samej aplikacji.
+> 2. **Symulacja GPS w emulatorze Android Studio:** Trasa oraz prędkość widoczne na nagraniu są generowane przez wbudowane narzędzie emulacji lokalizacji w Android Studio (*Extended Controls -> Location*). Wartości prędkości utrzymują się sztucznie na stałym poziomie przez dłuższe odcinki czasu, co wynika bezpośrednio ze stałych mnożników odtwarzania trasy (*Playback Speed*) w emulatorze. Dodatkowo wirtualny moduł GPS charakteryzuje się zauważalną bezwładnością przy dynamicznej zmianie prędkości odtwarzania odczyty pozycji aktualizują się z lekkim opóźnieniem. Wynika to wyłącznie ze specyfiki silnika symulacji środowiska Android Studio, a nie z wydajności czy logiki samej aplikacji.
 
 ---
 
@@ -23,7 +23,7 @@ Poniższa animacja przedstawia pełny cykl pracy w aplikacji (od konfiguracji se
 
 Projekt został wykonany w ramach zajęć „Projektowanie aplikacji mobilnych” na semestrze letnim 2023/2024, studiów pierwszego stopnia.
 
-Utrzymanie stałego tempa to kluczowy element treningu biegowego zarówno dla amatorów dbających o odpowiednie tętno tlenowe, jak i dla profesjonalistów przygotowujących się do maratonów i zawodów długodystansowych. 
+Utrzymanie stałego tempa to kluczowy element treningu biegowego zarówno dla amatorów dbających o odpowiednie tętno tlenowe, jak i dla profesjonalistów przygotowujących się do maratonów oraz zawodów długodystansowych. 
 
 **Asystent Tempa Biegu** pozwala biegaczowi zdefiniować optymalny przedział prędkości (od dolnej do górnej granicy w km/h). Podczas biegu aplikacja stale monitoruje prędkość za pomocą GPS i natychmiast ostrzega użytkownika:
 * **dźwiękowo** - gdy tempo spada poniżej dolnego limitu,
