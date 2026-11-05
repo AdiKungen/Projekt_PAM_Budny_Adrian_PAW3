@@ -37,7 +37,7 @@ Dzięki temu biegacz nie musi stale patrzeć na ekran telefonu, skupiając się 
 
 * **Precyzyjny pomiar prędkości w czasie rzeczywistym:** Odczyt danych z `LocationManager` (GPS) z częstotliwością odświeżania nie dłuższą niż 1 sekunda oraz priorytetowym wykorzystaniem wbudowanego sensora prędkości (`location.hasSpeed()`).
 * **Inteligentne filtrowanie anomalii GPS (Anti-teleportation filter):** Zabezpieczenie przed nagłymi skokami pozycji, zakłóceniami sygnału GPS lub restartem trasy (automatyczne ignorowanie fizycznie niemożliwych skoków prędkości > 50 km/h i reset punktu bazowego).
-* **Personalizowane strefy prędkości:** Wygodne ustawianie dolnej (_Min_) oraz górnej (`Max`) granicy prędkości w km/h wraz z walidacją danych (np. blokada ustawienia limitu dolnego wyższego niż górny, filtr wprowadzania do 2 miejsc po przecinku).
+* **Personalizowane strefy prędkości:** Wygodne ustawianie dolnej (_Min_) oraz górnej (Max) granicy prędkości w km/h wraz z walidacją danych (np. blokada ustawienia limitu dolnego wyższego niż górny, filtr wprowadzania do 2 miejsc po przecinku).
 * **Niezależne powiadomienia sensoryczne z buforem stabilizującym:**
   * **Sygnał dźwiękowy (`ToneGenerator`):** Cykliczny dźwięk ostrzegawczy informujący o konieczności przyspieszenia.
   * **Wibracje (`Vibrator` / `VibrationEffect`):** Impulsy wibracyjne informujące o zbyt szybkim biegu.
