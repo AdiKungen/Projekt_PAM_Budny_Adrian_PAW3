@@ -44,7 +44,7 @@ Dzięki temu biegacz nie musi stale patrzeć na ekran telefonu, skupiając się 
   * 3-sekundowy bufor stabilizujący zapobiegający fałszywym alarmom przy chwilowych wahaniach tempa.
 * **Kontrola kolejkowania powiadomień (Throttling):** Dedykowany mechanizm zapobiegający zalewaniu użytkownika i systemu komunikatami (eliminacja kolejkowania toastów/alertów oraz natychmiastowe czyszczenie po powrocie do pożądanej strefy prędkości).
 * **Zarządzanie stanem i oszczędzanie energii:** Automatyczne zatrzymywanie nasłuchiwania GPS w momencie przejścia aplikacji do tła (`onPause`), z możliwością bezpiecznego wznowienia (`onResume`).
-* **Wielojęzyczność (i18n):** Pełne wsparcie dla języka polskiego (values-pl) oraz angielskiego (wartości domyślne).
+* **Wielojęzyczność (i18n):** Pełne wsparcie dla języka polskiego (`values-pl`) oraz angielskiego (wartości domyślne).
 * **Nowoczesny UI:** Zastosowanie dwukierunkowego wiązania danych (Android Data Binding).
 
 ---
