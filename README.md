@@ -40,7 +40,7 @@ Dzięki temu biegacz nie musi stale patrzeć na ekran telefonu, skupiając się 
 * **Personalizowane strefy prędkości:** Wygodne ustawianie dolnej (_Min_) oraz górnej (_Max_) granicy prędkości w km/h wraz z walidacją danych (np. blokada ustawienia limitu dolnego wyższego niż górny, filtr wprowadzania do 2 miejsc po przecinku).
 * **Niezależne powiadomienia sensoryczne z buforem stabilizującym:**
   * **Sygnał dźwiękowy (`ToneGenerator`):** Cykliczny dźwięk ostrzegawczy informujący o konieczności przyspieszenia.
-  * **Wibracje (_Vibrator_ / _VibrationEffect_):** Impulsy wibracyjne informujące o zbyt szybkim biegu.
+  * **Wibracje (`Vibrator` / `VibrationEffect`):** Impulsy wibracyjne informujące o zbyt szybkim biegu.
   * 3-sekundowy bufor stabilizujący zapobiegający fałszywym alarmom przy chwilowych wahaniach tempa.
 * **Kontrola kolejkowania powiadomień (Throttling):** Dedykowany mechanizm zapobiegający zalewaniu użytkownika i systemu komunikatami (eliminacja kolejkowania toastów/alertów oraz natychmiastowe czyszczenie po powrocie do pożądanej strefy prędkości).
 * **Zarządzanie stanem i oszczędzanie energii:** Automatyczne zatrzymywanie nasłuchiwania GPS w momencie przejścia aplikacji do tła (`onPause`), z możliwością bezpiecznego wznowienia (`onResume`).
